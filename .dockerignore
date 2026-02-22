@@ -1,0 +1,23 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Test files
+test_watcher.py
+
+# IDE & OS
+.idea/
+.vscode/
+*.DS_Store
+
+# Git
+.git/
+.gitignore
