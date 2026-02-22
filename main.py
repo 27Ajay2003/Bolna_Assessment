@@ -1,8 +1,6 @@
 import asyncio
 import aiohttp
 import logging
-import threading
-from http.server import BaseHTTPRequestHandler, HTTPServer
 from config import STATUS_PAGES
 from watcher.fetcher import fetch_incidents
 from watcher.state import StateStore
@@ -15,27 +13,6 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-
-# ── Health check server (for Koyeb / Docker health checks) ──────────────────
-
-class HealthHandler(BaseHTTPRequestHandler):
-    def do_GET(self):
-        self.send_response(200)
-        self.end_headers()
-        self.wfile.write(b"OK")
-
-    def log_message(self, format, *args):
-        pass  # suppress access logs
-
-
-def start_health_server(port: int = 8080):
-    server = HTTPServer(("0.0.0.0", port), HealthHandler)
-    thread = threading.Thread(target=server.serve_forever, daemon=True)
-    thread.start()
-    logger.info(f"Health check server running on port {port}")
-
-
-# ── Watcher logic ────────────────────────────────────────────────────────────
 
 async def watch_page(session: aiohttp.ClientSession, page: dict, store: StateStore):
     """Coroutine that watches a single status page forever."""
@@ -68,8 +45,6 @@ async def watch_page(session: aiohttp.ClientSession, page: dict, store: StateSto
 
 
 async def main():
-    start_health_server()
-
     connector = aiohttp.TCPConnector(limit=100)
     timeout = aiohttp.ClientTimeout(total=15)
 
