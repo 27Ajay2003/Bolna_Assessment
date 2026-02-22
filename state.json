@@ -1,0 +1,179 @@
+{
+  "https://status.openai.com/api/v2/incidents.json": {
+    "01KHYH2KT8VNWS146V0S09MF29": {
+      "status": "resolved",
+      "latest_update_at": "2026-02-20T22:44:27Z",
+      "name": "Increased latency in ChatGPT for some users",
+      "impact": "minor",
+      "components": []
+    },
+    "01KHRP7P1JF885BYA8SDWBDBR1": {
+      "status": "resolved",
+      "latest_update_at": "2026-02-18T16:40:22Z",
+      "name": "Sora 2 Degraded Performance",
+      "impact": "minor",
+      "components": []
+    },
+    "01KHM3D6HBAX95H7V8MXHNKDK6": {
+      "status": "resolved",
+      "latest_update_at": "2026-02-16T21:12:32Z",
+      "name": "Shopping Research Feature Down",
+      "impact": "critical",
+      "components": []
+    },
+    "01KHKQWHXEF4WJY8WGX24RA07R": {
+      "status": "resolved",
+      "latest_update_at": "2026-02-16T17:47:39Z",
+      "name": "Increased error rates on Codex Cloud",
+      "impact": "minor",
+      "components": []
+    },
+    "01KHENBA61A9PJHE092HXW60RA": {
+      "status": "resolved",
+      "latest_update_at": "2026-02-14T20:44:09Z",
+      "name": "Delays in Support Email Processing",
+      "impact": "none",
+      "components": []
+    },
+    "01KHB0X2GYKJEW6WV3G1SFYPCE": {
+      "status": "resolved",
+      "latest_update_at": "2026-02-14T04:24:08Z",
+      "name": "High errors with image generation",
+      "impact": "minor",
+      "components": []
+    },
+    "01KH9WCWZ41K9ST9FGB1V15DFC": {
+      "status": "resolved",
+      "latest_update_at": "2026-02-12T21:56:32Z",
+      "name": "ChatGPT Conversation Issues",
+      "impact": "minor",
+      "components": []
+    },
+    "01KH94NGSXNH9H4WBPXB3RFZWX": {
+      "status": "resolved",
+      "latest_update_at": "2026-02-12T17:52:34Z",
+      "name": "high error rate in text-embedding-3-small",
+      "impact": "minor",
+      "components": []
+    },
+    "01KH6RJWMT97BTHSBKA6M8Q0RY": {
+      "status": "resolved",
+      "latest_update_at": "2026-02-12T16:59:17Z",
+      "name": "Some users may experience issues starting conversations in ChatGPT",
+      "impact": "minor",
+      "components": []
+    },
+    "01KH4VF39Y6NSS91NZYH848EA5": {
+      "status": "resolved",
+      "latest_update_at": "2026-02-11T00:41:00Z",
+      "name": "Increased login errors for ChatGPT",
+      "impact": "minor",
+      "components": []
+    },
+    "01KH4JT5918MVR5R63YPB50APM": {
+      "status": "resolved",
+      "latest_update_at": "2026-02-10T20:57:50Z",
+      "name": "Increased error rates for ChatGPT Go",
+      "impact": "minor",
+      "components": []
+    },
+    "01KH472QRYMZASAAXB8CE74QBY": {
+      "status": "resolved",
+      "latest_update_at": "2026-02-10T19:29:41Z",
+      "name": "GPT 5.2 Elevated Error Rates",
+      "impact": "minor",
+      "components": []
+    },
+    "01KH1KTV2VBD62R0MRZFJ13XNE": {
+      "status": "resolved",
+      "latest_update_at": "2026-02-09T20:23:04Z",
+      "name": "Codex Cloud issues due to Github Dependencies",
+      "impact": "minor",
+      "components": []
+    },
+    "01KGVN79RRX11YCQZ52C68ZT1N": {
+      "status": "resolved",
+      "latest_update_at": "2026-02-07T09:11:19Z",
+      "name": "Some ChatGPT users may be experiencing issues with loading conversations",
+      "impact": "minor",
+      "components": []
+    },
+    "01KGNJACX0T5CYY1YWS8RNW6S6": {
+      "status": "resolved",
+      "latest_update_at": "2026-02-05T00:48:56Z",
+      "name": "Increased ChatGPT errors for some users",
+      "impact": "minor",
+      "components": []
+    },
+    "01KGMVV926ZSCD1MSDBS07AWYA": {
+      "status": "resolved",
+      "latest_update_at": "2026-02-04T21:04:35Z",
+      "name": "ChatGPT Availability Impacted",
+      "impact": "minor",
+      "components": []
+    },
+    "01KGMAYN6EHDVR9KB1CQJP4EGR": {
+      "status": "resolved",
+      "latest_update_at": "2026-02-04T14:51:53Z",
+      "name": "Custom GPT updates are failing for users",
+      "impact": "minor",
+      "components": []
+    },
+    "01KGK3YJB8CPX0TJY924H02TZW": {
+      "status": "resolved",
+      "latest_update_at": "2026-02-04T03:46:42Z",
+      "name": "Some users may experience issues loading or starting conversations",
+      "impact": "minor",
+      "components": []
+    },
+    "01KGJMMMDDYD8RYNEVFNVYG99F": {
+      "status": "resolved",
+      "latest_update_at": "2026-02-03T23:32:01Z",
+      "name": "Elevated error rates for finetuning jobs",
+      "impact": "minor",
+      "components": []
+    },
+    "01KGJK9Q6PDB3C3VX6MPCY6106": {
+      "status": "resolved",
+      "latest_update_at": "2026-02-03T22:14:03Z",
+      "name": "Elevated error rates for ChatGPT and Platform users",
+      "impact": "minor",
+      "components": []
+    },
+    "01KG80XW6H509B6MVRE05W99SF": {
+      "status": "resolved",
+      "latest_update_at": "2026-01-31T23:00:45Z",
+      "name": "Some ChatGPT users may be experiencing issues with their subscription renewals",
+      "impact": "major",
+      "components": []
+    },
+    "01KG8A252RVEHGC7EMP11JY9M8": {
+      "status": "resolved",
+      "latest_update_at": "2026-01-31T00:21:35Z",
+      "name": "Some Android users may be experiencing errors when signing up for ChatGPT with Google Authentication",
+      "impact": "minor",
+      "components": []
+    },
+    "01KG13K239MSN2R3S015E2WMY1": {
+      "status": "resolved",
+      "latest_update_at": "2026-01-28T02:14:26Z",
+      "name": "Brief Issue with Image Generation Results",
+      "impact": "minor",
+      "components": []
+    },
+    "01KFZB0A5C1D3TQED136VXFT9W": {
+      "status": "resolved",
+      "latest_update_at": "2026-01-27T11:03:26Z",
+      "name": "Elevated Codex Error Rate",
+      "impact": "minor",
+      "components": []
+    },
+    "01KFXHMCMQE0EWA7R8RM5F9YW2": {
+      "status": "resolved",
+      "latest_update_at": "2026-01-26T17:27:46Z",
+      "name": "ChatGPT availability degraded for free and logged out users ",
+      "impact": "minor",
+      "components": []
+    }
+  }
+}
