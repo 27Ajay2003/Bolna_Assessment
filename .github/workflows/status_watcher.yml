@@ -1,0 +1,26 @@
+name: Status Watcher
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"   # runs every 5 minutes
+  workflow_dispatch:          # allows manual trigger from GitHub UI
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4        # kill before next run starts
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch & display current incidents
+        run: python check_once.py
