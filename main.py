@@ -13,6 +13,8 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+STATE_FILE = "state.json"
+
 
 async def watch_page(session: aiohttp.ClientSession, page: dict, store: StateStore):
     """Coroutine that watches a single status page forever."""
@@ -25,7 +27,10 @@ async def watch_page(session: aiohttp.ClientSession, page: dict, store: StateSto
     # First fetch is baseline — don't fire events, just record state
     incidents = await fetch_incidents(session, url)
     if incidents is not None:
-        store.initialize(url, incidents)
+        if not store.get(url):
+            # No prior state loaded from file — initialize silently
+            store.initialize(url, incidents)
+        # else: state was loaded from state.json, skip initialisation
 
     while True:
         await asyncio.sleep(poll_interval)
@@ -36,6 +41,7 @@ async def watch_page(session: aiohttp.ClientSession, page: dict, store: StateSto
 
             events = diff_incidents(store.get(url), incidents)
             store.update(url, incidents)
+            store.save_to_json(STATE_FILE)   # persist after every poll
 
             for event in events:
                 handle_event(name, event)
@@ -50,6 +56,7 @@ async def main():
 
     async with aiohttp.ClientSession(connector=connector, timeout=timeout) as session:
         store = StateStore()
+        store.load_from_json(STATE_FILE)     # restore state from previous run
         watchers = [
             watch_page(session, page, store)
             for page in STATUS_PAGES

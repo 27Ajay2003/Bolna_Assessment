@@ -1,3 +1,7 @@
+import json
+import os
+
+
 class StateStore:
     """
     In-memory store that tracks the last known state per status page URL.
@@ -43,3 +47,15 @@ class StateStore:
                 ],
             }
         return snapshot
+
+    def load_from_json(self, path: str):
+        """Load persisted state from a JSON file. No-op if file doesn't exist."""
+        if not os.path.exists(path):
+            return
+        with open(path, "r") as f:
+            self._store = json.load(f)
+
+    def save_to_json(self, path: str):
+        """Write current state to a JSON file for persistence across runs."""
+        with open(path, "w") as f:
+            json.dump(self._store, f, indent=2)
