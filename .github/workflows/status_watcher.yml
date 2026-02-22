@@ -11,7 +11,7 @@ permissions:
 jobs:
   watch:
     runs-on: ubuntu-latest
-    timeout-minutes: 4        # killed after 4 min; state.json already saved by then
+    # No job-level timeout — we control duration via the step below
 
     steps:
       - name: Checkout
@@ -25,9 +25,10 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run watcher (polls until timeout kills it)
-        run: python main.py
-        continue-on-error: true   # timeout exit is non-zero — treat as ok
+      - name: Run watcher (3.5 min, then exit cleanly)
+        # `timeout` sends SIGTERM after 210s — Python catches it and exits
+        # `|| true` ensures a non-zero exit doesn't fail this step
+        run: timeout 210 python main.py || true
 
       - name: Commit updated state.json
         run: |
