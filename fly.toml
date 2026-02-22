@@ -1,9 +1,0 @@
-app = "status-watcher"
-primary_region = "sin"   # Singapore — closest to India
-
-[build]
-
-[env]
-  PYTHONUNBUFFERED = "1"
-
-# No [[services]] block — this is a background worker, not a web app
