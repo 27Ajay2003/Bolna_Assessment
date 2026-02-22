@@ -22,5 +22,8 @@ COPY . .
 # Ensure Python output is not buffered (so logs appear immediately)
 ENV PYTHONUNBUFFERED=1
 
+# Expose health check port
+EXPOSE 8080
+
 # Run the watcher
 CMD ["python", "main.py"]
