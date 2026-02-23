@@ -1,8 +1,8 @@
 {
   "https://status.openai.com/api/v2/incidents.json": {
     "01KJ5J4MPJ199K8XVX6T05X66J": {
-      "status": "monitoring",
-      "latest_update_at": "2026-02-23T15:58:58Z",
+      "status": "resolved",
+      "latest_update_at": "2026-02-23T16:09:30Z",
       "name": "Elevated Error Rate for ChatGPT Conversations for Business and Enterprise Customers",
       "impact": "minor",
       "components": []
