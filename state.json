@@ -1,8 +1,8 @@
 {
   "https://status.openai.com/api/v2/incidents.json": {
     "01KJB80QA8P62R9X3B71YAZEAK": {
-      "status": "investigating",
-      "latest_update_at": "2026-02-25T20:32:00Z",
+      "status": "resolved",
+      "latest_update_at": "2026-02-25T21:27:52Z",
       "name": "Artifact generation (asking the model to generate a spreadsheet or slideshow) on ChatGPT is down for all users.",
       "impact": "minor",
       "components": []
