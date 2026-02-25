@@ -1,5 +1,12 @@
 {
   "https://status.openai.com/api/v2/incidents.json": {
+    "01KJB80QA8P62R9X3B71YAZEAK": {
+      "status": "investigating",
+      "latest_update_at": "2026-02-25T20:32:00Z",
+      "name": "Artifact generation (asking the model to generate a spreadsheet or slideshow) on ChatGPT is down for all users.",
+      "impact": "minor",
+      "components": []
+    },
     "01KJ5J4MPJ199K8XVX6T05X66J": {
       "status": "resolved",
       "latest_update_at": "2026-02-23T16:09:30Z",
@@ -165,13 +172,6 @@
       "status": "resolved",
       "latest_update_at": "2026-01-28T02:14:26Z",
       "name": "Brief Issue with Image Generation Results",
-      "impact": "minor",
-      "components": []
-    },
-    "01KFZB0A5C1D3TQED136VXFT9W": {
-      "status": "resolved",
-      "latest_update_at": "2026-01-27T11:03:26Z",
-      "name": "Elevated Codex Error Rate",
       "impact": "minor",
       "components": []
     }
