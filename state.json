@@ -1,8 +1,8 @@
 {
   "https://status.openai.com/api/v2/incidents.json": {
     "01KJD45ZHJHG8XM53V20JKKYNV": {
-      "status": "monitoring",
-      "latest_update_at": "2026-02-26T15:30:14Z",
+      "status": "resolved",
+      "latest_update_at": "2026-02-26T15:57:57Z",
       "name": "Issue with some ChatGPT Apps",
       "impact": "major",
       "components": []
