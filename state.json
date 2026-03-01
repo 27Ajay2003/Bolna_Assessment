@@ -1,5 +1,12 @@
 {
   "https://status.openai.com/api/v2/incidents.json": {
+    "01KJM0AYG5PAY9EYRFH4T6JHP6": {
+      "status": "investigating",
+      "latest_update_at": "2026-03-01T06:10:57Z",
+      "name": "Increased Authentication Failures Affecting Some Users",
+      "impact": "minor",
+      "components": []
+    },
     "01KJD45ZHJHG8XM53V20JKKYNV": {
       "status": "resolved",
       "latest_update_at": "2026-02-26T15:57:57Z",
@@ -159,13 +166,6 @@
       "latest_update_at": "2026-02-03T22:14:03Z",
       "name": "Elevated error rates for ChatGPT and Platform users",
       "impact": "minor",
-      "components": []
-    },
-    "01KG80XW6H509B6MVRE05W99SF": {
-      "status": "resolved",
-      "latest_update_at": "2026-01-31T23:00:45Z",
-      "name": "Some ChatGPT users may be experiencing issues with their subscription renewals",
-      "impact": "major",
       "components": []
     },
     "01KG8A252RVEHGC7EMP11JY9M8": {
