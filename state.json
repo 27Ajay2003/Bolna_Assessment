@@ -1,5 +1,12 @@
 {
   "https://status.openai.com/api/v2/incidents.json": {
+    "01KJQMDBTHS18NGB9Q5M0NH7A1": {
+      "status": "investigating",
+      "latest_update_at": "2026-03-02T15:59:31Z",
+      "name": "Errors in Sora API",
+      "impact": "minor",
+      "components": []
+    },
     "01KJQJRF7J0CKT82SHDZ85YG4Y": {
       "status": "investigating",
       "latest_update_at": "2026-03-02T15:30:38Z",
@@ -165,13 +172,6 @@
       "status": "resolved",
       "latest_update_at": "2026-02-03T23:32:01Z",
       "name": "Elevated error rates for finetuning jobs",
-      "impact": "minor",
-      "components": []
-    },
-    "01KGJK9Q6PDB3C3VX6MPCY6106": {
-      "status": "resolved",
-      "latest_update_at": "2026-02-03T22:14:03Z",
-      "name": "Elevated error rates for ChatGPT and Platform users",
       "impact": "minor",
       "components": []
     }
