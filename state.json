@@ -1,8 +1,8 @@
 {
   "https://status.openai.com/api/v2/incidents.json": {
     "01KJM0AYG5PAY9EYRFH4T6JHP6": {
-      "status": "monitoring",
-      "latest_update_at": "2026-03-01T07:29:22Z",
+      "status": "resolved",
+      "latest_update_at": "2026-03-02T02:08:54Z",
       "name": "Increased Authentication Failures Affecting Some Users",
       "impact": "minor",
       "components": []
