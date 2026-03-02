@@ -1,5 +1,12 @@
 {
   "https://status.openai.com/api/v2/incidents.json": {
+    "01KJQJRF7J0CKT82SHDZ85YG4Y": {
+      "status": "investigating",
+      "latest_update_at": "2026-03-02T15:30:38Z",
+      "name": "File uploads and file processing failing",
+      "impact": "minor",
+      "components": []
+    },
     "01KJM0AYG5PAY9EYRFH4T6JHP6": {
       "status": "resolved",
       "latest_update_at": "2026-03-02T02:08:54Z",
@@ -165,13 +172,6 @@
       "status": "resolved",
       "latest_update_at": "2026-02-03T22:14:03Z",
       "name": "Elevated error rates for ChatGPT and Platform users",
-      "impact": "minor",
-      "components": []
-    },
-    "01KG8A252RVEHGC7EMP11JY9M8": {
-      "status": "resolved",
-      "latest_update_at": "2026-01-31T00:21:35Z",
-      "name": "Some Android users may be experiencing errors when signing up for ChatGPT with Google Authentication",
       "impact": "minor",
       "components": []
     }
