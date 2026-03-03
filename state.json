@@ -1,5 +1,12 @@
 {
   "https://status.openai.com/api/v2/incidents.json": {
+    "01KJT9GR84M7S3RQJDPSHEQHYE": {
+      "status": "identified",
+      "latest_update_at": "2026-03-03T16:46:51Z",
+      "name": "Elevated errors in ChatGPT file uploads",
+      "impact": "minor",
+      "components": []
+    },
     "01KJRP6KJKP51AGPA5FW8FWFFM": {
       "status": "resolved",
       "latest_update_at": "2026-03-03T01:52:29Z",
@@ -165,13 +172,6 @@
       "status": "resolved",
       "latest_update_at": "2026-02-04T14:51:53Z",
       "name": "Custom GPT updates are failing for users",
-      "impact": "minor",
-      "components": []
-    },
-    "01KGK3YJB8CPX0TJY924H02TZW": {
-      "status": "resolved",
-      "latest_update_at": "2026-02-04T03:46:42Z",
-      "name": "Some users may experience issues loading or starting conversations",
       "impact": "minor",
       "components": []
     }
