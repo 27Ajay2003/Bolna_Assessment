@@ -1,5 +1,12 @@
 {
   "https://status.openai.com/api/v2/incidents.json": {
+    "01KJRP6KJKP51AGPA5FW8FWFFM": {
+      "status": "resolved",
+      "latest_update_at": "2026-03-03T01:52:29Z",
+      "name": "Users may experience elevated error rate in Codex",
+      "impact": "minor",
+      "components": []
+    },
     "01KJQJRF7J0CKT82SHDZ85YG4Y": {
       "status": "resolved",
       "latest_update_at": "2026-03-02T17:14:48Z",
@@ -165,13 +172,6 @@
       "status": "resolved",
       "latest_update_at": "2026-02-04T03:46:42Z",
       "name": "Some users may experience issues loading or starting conversations",
-      "impact": "minor",
-      "components": []
-    },
-    "01KGJMMMDDYD8RYNEVFNVYG99F": {
-      "status": "resolved",
-      "latest_update_at": "2026-02-03T23:32:01Z",
-      "name": "Elevated error rates for finetuning jobs",
       "impact": "minor",
       "components": []
     }
