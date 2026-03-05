@@ -1,5 +1,19 @@
 {
   "https://status.openai.com/api/v2/incidents.json": {
+    "01KJZK6XF3E5M2DRNZQ1EDDMJ4": {
+      "status": "investigating",
+      "latest_update_at": "2026-03-05T18:12:26Z",
+      "name": "ChatGPT Issues Sending Messages",
+      "impact": "minor",
+      "components": []
+    },
+    "01KJZG0ADWGBF4K6AJ5EDFV52T": {
+      "status": "resolved",
+      "latest_update_at": "2026-03-05T17:16:24Z",
+      "name": "High Error Rate in Realtime API (EU)",
+      "impact": "minor",
+      "components": []
+    },
     "01KJXSQH2Y0XHSNCXM9R7T968C": {
       "status": "resolved",
       "latest_update_at": "2026-03-05T06:27:17Z",
@@ -158,20 +172,6 @@
       "status": "resolved",
       "latest_update_at": "2026-02-10T19:29:41Z",
       "name": "GPT 5.2 Elevated Error Rates",
-      "impact": "minor",
-      "components": []
-    },
-    "01KH1KTV2VBD62R0MRZFJ13XNE": {
-      "status": "resolved",
-      "latest_update_at": "2026-02-09T20:23:04Z",
-      "name": "Codex Cloud issues due to Github Dependencies",
-      "impact": "minor",
-      "components": []
-    },
-    "01KGVN79RRX11YCQZ52C68ZT1N": {
-      "status": "resolved",
-      "latest_update_at": "2026-02-07T09:11:19Z",
-      "name": "Some ChatGPT users may be experiencing issues with loading conversations",
       "impact": "minor",
       "components": []
     }
