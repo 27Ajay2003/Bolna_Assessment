@@ -1,5 +1,19 @@
 {
   "https://status.openai.com/api/v2/incidents.json": {
+    "01KJXSQH2Y0XHSNCXM9R7T968C": {
+      "status": "monitoring",
+      "latest_update_at": "2026-03-05T01:53:06Z",
+      "name": "User may experience errors in ChatGPT",
+      "impact": "minor",
+      "components": []
+    },
+    "01KJXQDJ6P1CG5YNXKZRY2H6RX": {
+      "status": "resolved",
+      "latest_update_at": "2026-03-05T01:12:32Z",
+      "name": "API Error Rates",
+      "impact": "minor",
+      "components": []
+    },
     "01KJT9GR84M7S3RQJDPSHEQHYE": {
       "status": "resolved",
       "latest_update_at": "2026-03-03T22:51:50Z",
@@ -158,20 +172,6 @@
       "status": "resolved",
       "latest_update_at": "2026-02-07T09:11:19Z",
       "name": "Some ChatGPT users may be experiencing issues with loading conversations",
-      "impact": "minor",
-      "components": []
-    },
-    "01KGNJACX0T5CYY1YWS8RNW6S6": {
-      "status": "resolved",
-      "latest_update_at": "2026-02-05T00:48:56Z",
-      "name": "Increased ChatGPT errors for some users",
-      "impact": "minor",
-      "components": []
-    },
-    "01KGMVV926ZSCD1MSDBS07AWYA": {
-      "status": "resolved",
-      "latest_update_at": "2026-02-04T21:04:35Z",
-      "name": "ChatGPT Availability Impacted",
       "impact": "minor",
       "components": []
     }
