@@ -1,8 +1,8 @@
 {
   "https://status.openai.com/api/v2/incidents.json": {
     "01KJXSQH2Y0XHSNCXM9R7T968C": {
-      "status": "monitoring",
-      "latest_update_at": "2026-03-05T01:53:06Z",
+      "status": "resolved",
+      "latest_update_at": "2026-03-05T06:27:17Z",
       "name": "User may experience errors in ChatGPT",
       "impact": "minor",
       "components": []
