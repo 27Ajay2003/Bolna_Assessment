@@ -1,5 +1,12 @@
 {
   "https://status.openai.com/api/v2/incidents.json": {
+    "01KK26XE1W536H7DQV2EXM3GHE": {
+      "status": "identified",
+      "latest_update_at": "2026-03-06T18:35:16Z",
+      "name": "Issues with Increased Codex Usage Rate",
+      "impact": "minor",
+      "components": []
+    },
     "01KJZK6XF3E5M2DRNZQ1EDDMJ4": {
       "status": "resolved",
       "latest_update_at": "2026-03-05T21:49:57Z",
@@ -165,13 +172,6 @@
       "status": "resolved",
       "latest_update_at": "2026-02-10T20:57:50Z",
       "name": "Increased error rates for ChatGPT Go",
-      "impact": "minor",
-      "components": []
-    },
-    "01KH472QRYMZASAAXB8CE74QBY": {
-      "status": "resolved",
-      "latest_update_at": "2026-02-10T19:29:41Z",
-      "name": "GPT 5.2 Elevated Error Rates",
       "impact": "minor",
       "components": []
     }
