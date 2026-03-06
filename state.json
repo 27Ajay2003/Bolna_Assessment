@@ -2,7 +2,7 @@
   "https://status.openai.com/api/v2/incidents.json": {
     "01KK26XE1W536H7DQV2EXM3GHE": {
       "status": "identified",
-      "latest_update_at": "2026-03-06T18:35:16Z",
+      "latest_update_at": "2026-03-06T19:20:40Z",
       "name": "Issues with Increased Codex Usage Rate",
       "impact": "minor",
       "components": []
