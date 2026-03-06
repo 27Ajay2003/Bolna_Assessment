@@ -1,5 +1,12 @@
 {
   "https://status.openai.com/api/v2/incidents.json": {
+    "01KK2R1TEV8VBRPZA1829N6MDJ": {
+      "status": "identified",
+      "latest_update_at": "2026-03-06T23:34:46Z",
+      "name": "Errors with Compliance API",
+      "impact": "minor",
+      "components": []
+    },
     "01KK26XE1W536H7DQV2EXM3GHE": {
       "status": "identified",
       "latest_update_at": "2026-03-06T22:08:52Z",
@@ -165,13 +172,6 @@
       "status": "resolved",
       "latest_update_at": "2026-02-11T00:41:00Z",
       "name": "Increased login errors for ChatGPT",
-      "impact": "minor",
-      "components": []
-    },
-    "01KH4JT5918MVR5R63YPB50APM": {
-      "status": "resolved",
-      "latest_update_at": "2026-02-10T20:57:50Z",
-      "name": "Increased error rates for ChatGPT Go",
       "impact": "minor",
       "components": []
     }
