@@ -1,16 +1,23 @@
 {
   "https://status.openai.com/api/v2/incidents.json": {
-    "01KK2R1TEV8VBRPZA1829N6MDJ": {
-      "status": "monitoring",
-      "latest_update_at": "2026-03-06T23:43:26Z",
-      "name": "Errors with Compliance API",
+    "01KK26XE1W536H7DQV2EXM3GHE": {
+      "status": "resolved",
+      "latest_update_at": "2026-03-07T01:00:41Z",
+      "name": "Issues with Increased Codex Usage Rate",
       "impact": "minor",
       "components": []
     },
-    "01KK26XE1W536H7DQV2EXM3GHE": {
-      "status": "identified",
-      "latest_update_at": "2026-03-06T22:08:52Z",
-      "name": "Issues with Increased Codex Usage Rate",
+    "01KK2T9TNTF5V3BSJ9T8D2S5CY": {
+      "status": "resolved",
+      "latest_update_at": "2026-03-07T00:57:23Z",
+      "name": "Login Issues",
+      "impact": "minor",
+      "components": []
+    },
+    "01KK2R1TEV8VBRPZA1829N6MDJ": {
+      "status": "resolved",
+      "latest_update_at": "2026-03-06T23:59:29Z",
+      "name": "Errors with Compliance API",
       "impact": "minor",
       "components": []
     },
@@ -165,13 +172,6 @@
       "status": "resolved",
       "latest_update_at": "2026-02-12T16:59:17Z",
       "name": "Some users may experience issues starting conversations in ChatGPT",
-      "impact": "minor",
-      "components": []
-    },
-    "01KH4VF39Y6NSS91NZYH848EA5": {
-      "status": "resolved",
-      "latest_update_at": "2026-02-11T00:41:00Z",
-      "name": "Increased login errors for ChatGPT",
       "impact": "minor",
       "components": []
     }
